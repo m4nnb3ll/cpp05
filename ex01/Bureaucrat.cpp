@@ -34,8 +34,7 @@ Bureaucrat::~Bureaucrat()
 Bureaucrat::Bureaucrat(const Bureaucrat& bureaucrat)
 	:	m_name(bureaucrat.m_name),
 		m_grade(bureaucrat.m_grade)
-{
-}
+{ }
 
 Bureaucrat&	Bureaucrat::operator=(const Bureaucrat& bureaucrat)
 {
