@@ -1,4 +1,4 @@
-NAME = bureaucrat
+NAME = 28b
 
 CC = c++
 CFLAGS = -Wall -Werror -Wextra -std=c++98

@@ -29,13 +29,13 @@ private:
 class Form::GradeTooHighException : public std::exception
 {
 public:
-    const char* what() const _NOEXCEPT;
+    const char* what() const throw();
 };
 
 class Form::GradeTooLowException : public std::exception
 {
 public:
-    const char* what() const _NOEXCEPT;
+    const char* what() const throw();
 };
 
 std::ostream&	operator<<(std::ostream& o, const Form &f);

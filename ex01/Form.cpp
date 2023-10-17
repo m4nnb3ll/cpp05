@@ -1,12 +1,12 @@
 #include "Form.hpp"
 
 
-const char*	Form::GradeTooHighException::what() const _NOEXCEPT
+const char*	Form::GradeTooHighException::what() const throw()
 {
 	return "The grade is too high!";
 }
 
-const char*	Form::GradeTooLowException::what() const _NOEXCEPT
+const char*	Form::GradeTooLowException::what() const throw()
 {
 	return "The grade is too low!";
 }

@@ -24,13 +24,13 @@ private:
 class Bureaucrat::GradeTooHighException : public std::exception
 {
 public:
-    const char* what() const _NOEXCEPT;
+    const char* what() const throw();
 };
 
 class Bureaucrat::GradeTooLowException : public std::exception
 {
 public:
-    const char* what() const _NOEXCEPT;
+    const char* what() const throw();
 };
 
 std::ostream&	operator<<(std::ostream& o, const Bureaucrat &b);
