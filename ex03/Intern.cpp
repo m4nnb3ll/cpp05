@@ -2,8 +2,8 @@
 
 Intern::~Intern(void) {}
 Intern::Intern(void) {}
-Intern::Intern( const Intern& i ){}
-Intern&	Intern::operator=( const Intern& i ) { return (*this); }
+Intern::Intern( const Intern& i ){(void)i;}
+Intern&	Intern::operator=( const Intern& i ) {(void)i; return (*this); }
 
 AForm*	Intern::makeShrubbery(const std::string& target)
 {

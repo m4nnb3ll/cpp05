@@ -75,12 +75,12 @@ bool	AForm::getSigned()  const
 	return (m_signed);
 }
 
-const unsigned int	AForm::getSignGrade() const
+unsigned int	AForm::getSignGrade() const
 {
 	return (m_signGrade);
 }
 
-const unsigned int	AForm::getExecGrade() const
+unsigned int	AForm::getExecGrade() const
 {
 	return (m_execGrade);
 }

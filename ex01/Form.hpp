@@ -16,8 +16,8 @@ public:
 	class				GradeTooLowException;
 	const std::string&	getName() const;
 	bool				getSigned()  const;
-	const unsigned int	getSignGrade() const;
-	const unsigned int	getExecGrade() const;
+	unsigned int	getSignGrade() const;
+	unsigned int	getExecGrade() const;
 	void				beSigned(const Bureaucrat& bureaucrat);
 private:
 	const std::string	m_name;

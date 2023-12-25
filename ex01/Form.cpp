@@ -70,12 +70,12 @@ bool	Form::getSigned()  const
 	return (m_signed);
 }
 
-const unsigned int	Form::getSignGrade() const
+unsigned int	Form::getSignGrade() const
 {
 	return (m_signGrade);
 }
 
-const unsigned int	Form::getExecGrade() const
+unsigned int	Form::getExecGrade() const
 {
 	return (m_execGrade);
 }

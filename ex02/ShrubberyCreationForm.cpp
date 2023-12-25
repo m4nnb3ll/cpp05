@@ -53,6 +53,7 @@ ShrubberyCreationForm::ShrubberyCreationForm(const ShrubberyCreationForm& form)
 
 ShrubberyCreationForm&	ShrubberyCreationForm::operator=(const ShrubberyCreationForm& form)
 {
+  (void)form;
 	return (*this);
 }
 

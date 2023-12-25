@@ -22,6 +22,7 @@ PresidentialPardonForm::PresidentialPardonForm(const PresidentialPardonForm& for
 
 PresidentialPardonForm&	PresidentialPardonForm::operator=(const PresidentialPardonForm& form)
 {
+	(void)form;
 	return (*this);
 }
 

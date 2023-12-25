@@ -17,8 +17,8 @@ public:
 	class						NotSignedException;
 	virtual const std::string&	getName() const;
 	virtual bool				getSigned()  const;
-	virtual const unsigned int	getSignGrade() const;
-	virtual const unsigned int	getExecGrade() const;
+	virtual unsigned int	getSignGrade() const;
+	virtual unsigned int	getExecGrade() const;
 	virtual void				beSigned(const Bureaucrat& bureaucrat);
 	virtual void				execute(const Bureaucrat& executor) const = 0;
 private:
